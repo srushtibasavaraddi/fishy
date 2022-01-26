@@ -20,7 +20,8 @@
     "react-scripts": "4.0.3",
     "socket.io-client": "^4.2.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.10",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "nodemon": "^2.0.13"
   },
   "scripts": {
     "start": "craco start",
@@ -46,5 +47,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines":{
+    "node":"14.17.0",
+    "npm":"6.14.13"
+    }
 }

@@ -1,4 +1,4 @@
 import io from "socket.io-client";
 import React from "react";
-export const socket = io("http://54.176.18.38:5001/");
+export const socket = io("https://fishy-equilibrium-madiee.herokuapp.com/");
 export const SocketContext = React.createContext();
